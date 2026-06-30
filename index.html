@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marcin Uznański Market Entry Consulting</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+<div class="container">
+<div class="logo">MARCİN UZNAÑSKİ</div>
+<ul>
+<li><a href="#about">About Us</a></li>
+<li><a href="#why">Why Us?</a></li>
+<li><a href="#services">Our Services</a></li>
+<li><a href="#references">References</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+</nav>
+
+<header class="hero">
+<div class="overlay"></div>
+<div class="hero-content">
+<span class="badge">Market Entry Consulting</span>
+<h1>Combining Industrial Expertise with Market Intelligence</h1>
+<p>Your trusted partner for entering and growing in the Czech market.</p>
+<a href="#contact" class="btn">Contacte Geçin</a>
+</div>
+</header>
+
+<section class="stats" id="stats">
+<div><h2 class="counter" data-target="20">0</h2><p>Years of Experience</p></div>
+<div><h2 class="counter" data-target="150">0</h2><p>Projects</p></div>
+<div><h2 class="counter" data-target="30">0</h2><p>International Partners</p></div>
+<div><h2 class="counter" data-target="500">0</h2><p>Market Analyses</p></div></div>
+</section>
+
+<section id="about" class="container section">
+<h2>About Us</h2>
+<div class="about-grid">
+<div class="about-image">
+<img src="8d0f9e49-f98b-4552-971f-9efa464a075b.png" alt="Office">" alt="Office">
+</div>
+<div class="about-text">
+<p>We are a specialized market entry consultancy focused on helping companies successfully enter the fast-growing quick coupling industry. With a strong focus on the Czech Republic, we help manufacturers, distributors, and industrial solution providers establish themselves in one of Central Europe’s most strategically positioned markets. Our expertise lies at the intersection of industrial components and market intelligence. We understand the technical and commercial dynamics of quick coupling systems as well as the regulatory, competitive, and operational environment of the Czech market. We believe successful market entry is not only about presence, but about positioning—with clarity, confidence, and competitive advantage.</p>
+</div>
+</div>
+</section>
+
+<section id="why" class="container section">
+<h2>Why Us?</h2>
+<div class="grid">
+<div class="card" data-aos="fade-up"><h3>Industry Expertise</h3><p>We specialize in industrial components and quick coupling systems.</p></div>
+<div class="card" data-aos="fade-up"><h3>Deep Knowledge of the Czech Market</h3><p>Strong relationships with distributors, OEMs, and industry associations.</p></div>
+<div class="card" data-aos="fade-up"><h3>Action-Oriented</h3><p>Practical strategies backed by real market data.</p></div>
+<div class="card" data-aos="fade-up"><h3>Strategic Positioning</h3><p>Differentiation for long-term market leadership.</p></div>
+<div class="card" data-aos="fade-up"><h3>End-to-End Partnership</h3><p>Support from initial analysis through the sales process.</p></div>
+</div>
+</section>
+
+<section id="services" class="container section">
+<h2>Our Services</h2>
+<div class="grid">
+<div class="card" data-aos="fade-up"><h3>Market Analysis & Intelligence</h3><p>Comprehensive assessment of the Czech quick coupling market, including market size, growth dynamics, competition, and demand drivers.</p></div>
+<div class="card" data-aos="fade-up"><h3>Partner Identification</h3><p>Targeted identification and qualification of distributors, agents, and strategic partners with the right technical capabilities and market access.</p></div>
+<div class="card" data-aos="fade-up"><h3>Market Entry Strategy</h3><p>Tailored market entry strategies covering pricing, positioning, channel selection, and launch sequencing.</p></div>
+<div class="card" data-aos="fade-up"><h3>Regulatory Compliance</h3><p>Guidance on Czech and EU requirements, CE marking, and compliance documentation.</p></div>
+<div class="card" data-aos="fade-up"><h3>Local Network Development</h3><p>Build your presence through targeted introductions to industry associations, key customers, OEMs, and decision-makers.</p></div>
+<div class="card" data-aos="fade-up"><h3>Performance Monitoring</h3><p>Post-entry KPI tracking, competitor monitoring, and strategic adjustments for sustainable growth.</p></div>
+</div>
+</section>
+
+<section id="references" class="container section">
+<h2>References</h2>
+<div class="grid">
+<div class="card" data-aos="fade-up"><img src="logo-rtc.png" alt="RTC Coupling Technology" class="ref-logo"><h4>Successfully entered the Czech market through a network of three distributors and generated the first commercial revenue within seven months.</h4></div>
+
+</div>
+</div>
+</section>
+
+<section id="contact" class="container section">
+<h2>Contact</h2>
+<div class="contact-wrapper"><div class="contact-form"><form><input type="text" placeholder="Full Name" required><input type="email" placeholder="Email" required><input type="text" placeholder="Subject"><textarea placeholder="Your Message" rows="6"></textarea><button type="submit" class="btn">Send</button></form></div><div class="contact">
+<p><strong>Telefon:</strong> +420 737 473 027</p>
+<p><strong>Email:</strong>info@marcinuznanski.com</p>
+<p><strong>Address:</strong>Hoděšovice 111 534 01, Byst, Czech Republic
+</p>
+
+<div class="map-container">
+    <iframe
+        src="https://www.google.com/maps?q=Prague,Czech+Republic&output=embed"
+        width="100%"
+        height="280"
+        style="border:0;border-radius:20px;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</div>
+</div>
+</section>
+
+<footer>© 2026 MARCİN UZNAÑSKİ Market Entry Consulting
+<section id="references" class="section">
+<div class="container">
+
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script><script>AOS.init({duration:900,once:true});</script>
+<script>
+const stats=document.getElementById('stats');
+const observer=new IntersectionObserver((entries)=>{
+ entries.forEach(entry=>{
+  if(entry.isIntersecting){
+    document.querySelectorAll('.counter').forEach(counter=>{
+      const target=+counter.dataset.target;
+      let current=0;
+      counter.textContent='0';
+      const inc=Math.max(1,Math.ceil(target/60));
+      function tick(){
+        current+=inc;
+        if(current<target){
+          counter.textContent=current;
+          requestAnimationFrame(tick);
+        }else{
+          counter.textContent=target+'+';
+        }
+      }
+      tick();
+    });
+  }
+ });
+},{threshold:0.5});
+observer.observe(stats);
+</script></body>
+</html>
