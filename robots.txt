@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://marcin-uznanski.vercel.app/sitemap.xml
